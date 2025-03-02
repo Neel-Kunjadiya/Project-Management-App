@@ -65,19 +65,3 @@ This **Project Management Dashboard** was developed to address inefficiencies in
 - **Cross-Team Coordination**: Enables multiple teams to work in parallel with full visibility into shared and interdependent projects.
 
 This dashboard is ideal for **project managers, software development teams, marketing teams, and organizations** that require a structured and scalable approach to managing their projects. **Project managers** can streamline workflows and track deliverables with real-time insights. **Software development teams** benefit from enhanced collaboration features, ensuring smooth sprint planning and task allocation. **Marketing teams** can efficiently coordinate campaigns, track deadlines, and manage resources. **Organizations** of all sizes gain a centralized platform to oversee multiple projects, improving visibility, accountability, and team productivity.
-
-## Prerequisites
-
-To set up and use this system effectively, install the following tools:
-
-- **Git** (for version control and collaboration)
-- **Node.js** (to run the backend and frontend applications)
-- **npm** (Node Package Manager, to install project dependencies)
-- **PostgreSQL** (to manage and store database records)
-- **PgAdmin** (for managing the PostgreSQL database with a graphical interface)
-
-### Database Management Command
-
-If needed, use this SQL command to reset primary key sequences in the database:
-```sql
-SELECT setval(pg_get_serial_sequence('"[DATA_MODEL_NAME_HERE]"', 'id'), coalesce(max(id)+1, 1), false) FROM "[DATA_MODEL_NAME_HERE]";
