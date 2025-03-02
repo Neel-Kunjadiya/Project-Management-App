@@ -222,4 +222,4 @@ const SidebarLink = ({ href, icon: Icon, label }: SidebarLinkProps) => {
   );
 };
 
-// export default Sidebar;
+export default Sidebar;
