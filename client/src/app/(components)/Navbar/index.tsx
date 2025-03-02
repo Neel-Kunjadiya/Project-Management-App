@@ -1,5 +1,6 @@
 import React from "react";
-import { Search } from "lucide-react";
+import { Menu, Moon, Search, Settings, Sun, User } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -14,6 +15,16 @@ const Navbar = () => {
             placeholder="Search..."
           />
         </div>
+      </div>
+      {/* Icons */}
+      <div className="flex items-center">
+        <Link
+          href="/settings"
+          className="hover: h-min w-min rounded bg-gray-100 p-2"
+        >
+          <Settings className="h-6 w-6 cursor-pointer dark:text-white" />
+        </Link>
+        <div className="ml-2 mr-5 hidden min-h-[2em] w-[0.1rem] bg-gray-200 md:inline-block"></div>
       </div>
     </div>
   );
