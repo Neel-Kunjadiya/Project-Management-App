@@ -5,7 +5,7 @@ import { setIsSidebarCollapsed } from "@/state";
 import { useGetAuthUserQuery, useGetProjectsQuery } from "@/state/api";
 import { signOut } from "aws-amplify/auth";
 import {
-  AlertCircle,
+  // AlertCircle,
   AlertOctagon,
   AlertTriangle,
   Briefcase,
