@@ -30,7 +30,7 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar
 // git add .
 // git commit -m "comment"
 // git push
