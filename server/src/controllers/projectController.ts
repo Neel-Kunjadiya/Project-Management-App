@@ -17,7 +17,7 @@ export const getProjects = async (
   }
 };
 
-export const createProject = async 
+export const createProject = async (
   req: Request,
   res: Response
 ): Promise<void> => {
