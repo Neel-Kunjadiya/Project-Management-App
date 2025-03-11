@@ -21,6 +21,7 @@
     "@types/node": "^22.13.10",
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1",
     "rimraff": "^0.0.1-security",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
